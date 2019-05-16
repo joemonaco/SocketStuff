@@ -37,8 +37,8 @@ export class AppComponent implements OnInit {
     })
   }
 
-  doStuff() {
-    this.chat.sendMessage("RIGHT" + this.curNum);
+  sendMessage(msg: String) {
+    this.chat.sendMessage(msg);
     this.curNum++;
   }
 

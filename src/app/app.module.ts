@@ -7,7 +7,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { ChatService } from './services/chat.service';
 
-const config: SocketIoConfig = { url: 'localhost:8000', options: {}};
+const config: SocketIoConfig = { url: '192.168.162.168:8000', options: {}};
 
 @NgModule({
   declarations: [

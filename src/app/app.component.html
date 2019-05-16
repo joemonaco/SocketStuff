@@ -1,6 +1,7 @@
 
-<button (click)="doStuff()">SEND MESSAGE</button>
-<button (click)="showMessage()">GET MESSAGE</button>
+
+<input #box placeholder="Enter a message">
+<button (click)="sendMessage(box.value)">SEND MESSAGE</button>
 
 <!-- <h1>{{ msg }}</h1> -->
 
